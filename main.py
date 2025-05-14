@@ -1,5 +1,5 @@
 import streamlit as st
-from prediction_helper import predict
+from prediction_helper.py import predict
 
 st.set_page_config(page_title='Health Insurance Cost Predictor', layout='wide')
 
